@@ -7,7 +7,7 @@ const transactionRouter = require("./routes/tansactionRouter");
 const cors = require("cors");
 const app = express();
 const URI =
-  "mongodb+srv://sjorasiya665:XJECzOeotNwmxSU8@cluster0.qq8dv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/mern-expenses";
+  "mongodb+srv://sjorasiya665:sjorasiya665@cluster0.qq8dv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/mern-expenses";
 
 //! Connect to mongoDb
 mongoose
