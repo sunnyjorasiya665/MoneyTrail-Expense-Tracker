@@ -16,7 +16,7 @@ mongoose
   .catch((e) => console.log(e));
 
 //!Cors Configuratin
-const corsOptions = { origin: ["https://moneytrail-expense-income-tracker-5pnupyjis.vercel.app"] };
+const corsOptions = { origin: ["https://moneytrail.vercel.app"] };
 app.use(cors(corsOptions));
 
 //!Middlewares
