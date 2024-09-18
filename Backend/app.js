@@ -16,7 +16,7 @@ mongoose
   .catch((e) => console.log(e));
 
 //!Cors Configuratin
-const corsOptions = { origin: ["https://moneytrail-expense-gv1zzx81v-sunny-jorasiyas-projects.vercel.app/"] };
+const corsOptions = { origin: ["https://moneytrail-expense-gv1zzx81v-sunny-jorasiyas-projects.vercel.app"] };
 app.use(cors(corsOptions));
 
 //!Middlewares
