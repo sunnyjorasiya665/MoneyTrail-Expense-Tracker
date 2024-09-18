@@ -16,7 +16,7 @@ mongoose
   .catch((e) => console.log(e));
 
 //!Cors Configuratin
-const corsOptions = { origin: ["https://moneytrail.vercel.app"] };
+const corsOptions = { origin: ["https://66eb2d8fd0033a8d34209c4a--heartfelt-torrone-e2b2db.netlify.app"] };
 app.use(cors(corsOptions));
 
 //!Middlewares
