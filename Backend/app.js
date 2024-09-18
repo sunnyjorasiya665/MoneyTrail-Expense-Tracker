@@ -16,7 +16,7 @@ mongoose
   .catch((e) => console.log(e));
 
 //!Cors Configuratin
-const corsOptions = { origin: ["https://moneytrail.vercel.app"] };
+const corsOptions = { origin: ["http://localhost:5173"] };
 app.use(cors(corsOptions));
 
 //!Middlewares
