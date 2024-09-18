@@ -16,7 +16,7 @@ mongoose
   .catch((e) => console.log(e));
 
 //!Cors Configuratin
-const corsOptions = { origin: ["https://66eb2d8fd0033a8d34209c4a--heartfelt-torrone-e2b2db.netlify.app"] };
+const corsOptions = { origin: ["https://localhost:5173"] };
 app.use(cors(corsOptions));
 
 //!Middlewares
